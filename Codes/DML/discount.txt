@@ -1,0 +1,4 @@
+INSERT INTO discount (discount_level, discount_percentage, revenue) VALUES (0, 0, 0);
+INSERT INTO discount (discount_level, discount_percentage, revenue) VALUES (1, 0.05, 500);
+INSERT INTO discount (discount_level, discount_percentage, revenue) VALUES (2, 0.15, 1000);
+INSERT INTO discount (discount_level, discount_percentage, revenue) VALUES (3, 0.15, 3000);

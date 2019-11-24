@@ -1,0 +1,12 @@
+INSERT INTO books (book_id, book_title, author, genre, unit_price, isbn, no_of_available_books) VALUES (000001,'Data Communications and Networking','Forouzan', 'textbook', 250, 1259064751, 5);
+INSERT INTO books (book_id, book_title, author, genre, unit_price, isbn, no_of_available_books) VALUES (000002,'Introduction to Algorithm','Cormen', 'textbook', 300, 12556764751, 10);
+INSERT INTO books (book_id, book_title, author, genre, unit_price, isbn, no_of_available_books) VALUES (000003,'Database System Concepts','Forouzan', 'textbook', 280, 1359064718, 6);
+INSERT INTO books (book_id, book_title, author, genre, unit_price, isbn, no_of_available_books) VALUES (000004,'The Lord of the Rings','J. R. R. Tolkien', 'novel, fantasy, fiction', 550, 2259064751, 19);
+INSERT INTO books (book_id, book_title, author, genre, unit_price, isbn, no_of_available_books) VALUES (000005,'Harry Potter and the Philosophers Stone','J. K. Rowling', 'novel, fantasy, fiction', 750, 4259964755, 25);
+INSERT INTO books (book_id, book_title, author, genre, unit_price, isbn, no_of_available_books) VALUES (000006,'The Da Vinci Code','Dan Brown', 'fiction, fantasy, thriller', 650, 1119064754, 35);
+INSERT INTO books (book_id, book_title, author, genre, unit_price, isbn, no_of_available_books) VALUES (000007,'The Adventures of Sherlock Holmes','Arthur Conan Doyle', 'detective, fiction', 310, 1279064751, 15);
+INSERT INTO books (book_id, book_title, author, genre, unit_price, isbn, no_of_available_books) VALUES (000008,'Churchill: Walking with Destiny','Andrew Roberts', 'Biography', 350, 2259064751, 2);
+INSERT INTO books (book_id, book_title, author, genre, unit_price, isbn, no_of_available_books) VALUES (000009,'Oxford English Dictionary','Oxford University', 'Dictionary', 230, 3259074751, 7);
+INSERT INTO books (book_id, book_title, author, genre, unit_price, isbn, no_of_available_books) VALUES (000010,'Odyssey','Homer', 'epic, poetry', 250, 0559064701, 1);
+INSERT INTO books (book_id, book_title, author, genre, unit_price, isbn, no_of_available_books) VALUES (000011,'Project Nebula','Md. Zafar Iqbal', 'science fiction', 130, 9789848812761, 1);
+INSERT INTO books (book_id, book_title, author, genre, unit_price, isbn, no_of_available_books) VALUES (000012,'Ekattorer Dinguli','Jahanara Imam', 'History', 300, 9789845982306, 4);

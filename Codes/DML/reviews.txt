@@ -1,0 +1,10 @@
+INSERT INTO reviews VALUES ('000001','0000002', 8, 'Very good book.', TO_DATE('17/07/2018', 'DD/MM/YYYY'));
+INSERT INTO reviews VALUES ('000003','0000001', 10, 'Well Organized.', TO_DATE('19/07/2018', 'DD/MM/YYYY'));
+INSERT INTO reviews VALUES ('000009','0000001', 9, 'Easy to Understand.', TO_DATE('19/07/2018', 'DD/MM/YYYY'));
+INSERT INTO reviews VALUES ('000001','0000003', 10, 'Well written Book.', TO_DATE('23/7/2018', 'DD/MM/YYYY'));
+INSERT INTO reviews VALUES ('000011','0000004', 7, 'Complex but not bad really.', TO_DATE('27/09/2018', 'DD/MM/YYYY'));
+INSERT INTO reviews VALUES ('000006','0000010', 9, 'I would love to buy this book.', TO_DATE('10/10/2018', 'DD/MM/YYYY'));
+INSERT INTO reviews VALUES ('000019','0000011', 6, 'I do not like this book, boring.', TO_DATE('20/10/2018', 'DD/MM/YYYY'));
+INSERT INTO reviews VALUES ('000011','0000009', 8, '', TO_DATE('21/10/2018', 'DD/MM/YYYY'));
+INSERT INTO reviews VALUES ('000014','0000005', 7, 'Magic, Magic, Everywhere!', TO_DATE('24/10/2018', 'DD/MM/YYYY'));
+

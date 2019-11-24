@@ -1,0 +1,57 @@
+//Basic Queries//
+
+1. Find Total number of customers in the database using the Function to make easier statistical view.
+
+select distinct totalCustomer from customer;
+
+
+2. Find average rating of a specific book where book id is given. Use avgRating(b_id) function to make smaller query.
+
+select DISTINCT b_id, avgRating(b_id) from reviews
+where b_id=1;
+
+3. Show All purchase list/bills of ALL customers with purchase date, who have bought something.
+
+select distinct purchase.c_id, order_count*unit_price, purchase.PURCHASE_DATE
+from purchase join books on(b_id= book_id)
+ORDER BY c_id;
+
+
+4. Show Total revenue of any specific customer as it is needed to update their discount level. Take user input for that.
+
+select distinct customer.customer_name, purchase.c_id, sum(order_count*unit_price)
+from purchase join books on(b_id= book_id) join customer on(c_id = customer_id)
+where customer_name = '&customer_name'
+group by customer.customer_name,purchase.c_id;
+
+
+5. Find the customer who has the most revenue (purchased with most money)
+
+select distinct purchase.c_id, total
+from purchase join books on(b_id= book_id)
+where total = max(select sum(order_count*unit_price)
+from purchase join books on(b_id= book_id));
+
+6. Show all the reviews along with author,book title and review date of a specific book by all customers who have given a feedback. take user input.
+
+select c_id,book_title,summery,review_date 
+from reviews join books on(b_id = book_id)
+where b_id = '&b_id';
+
+
+
+7. Show all the Rent orders from all customers along with customer name and sort them by date of apply.
+
+
+select customer_name,c_id, days, rent_date
+from rent join customer on(c_id = customer_id)
+order by rent_date;
+
+
+
+8. Show the wishlist for specific customer alongwith the info of the book.And customer should be able to put his/her customer id via hand input.
+
+
+select book_title, b_id,c_id
+from wishlist join books on(b_id=book_id)
+where c_id = '&c_id';

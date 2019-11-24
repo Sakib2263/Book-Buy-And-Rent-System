@@ -1,0 +1,7 @@
+DROP TABLE purchase;
+DROP TABLE rent;
+DROP TABLE wishlist;
+DROP TABLE reviews;
+DROP TABLE customer;
+DROP TABLE books;
+DROP TABLE discount;
